@@ -1,5 +1,6 @@
-function change_URL(user_role) {
-  switch (user_role) {
+function change_URL() {
+  const role = scriptElement.getAttribute('user_role');
+  switch (role) {
     case "Sales":
       window.location.replace("http://www.w3schools.com");
       break;
@@ -8,4 +9,4 @@ function change_URL(user_role) {
       break;
   }
 }
-      change_URL(user_role)
+      change_URL()
