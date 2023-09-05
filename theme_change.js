@@ -1,14 +1,4 @@
 function change_URL() {
-  let scriptElement = document.getElementById("change_url");
-  const role = scriptElement.getAttribute('user_role');
-  switch (role) {
-    case "FND_APPLICATION_DEVELOPER_JOB":
-      //window.location.replace("http://www.w3schools.com");
-      console.log(" FOUND-REDIRECT")
-      break;
-    default:
-      console.log("do nothing");
-      break;
-  }
+      window.location.replace("https://fa-eqjw-dev10-saasfademo1.ds-fa.oraclepdemos.com/crmUI/faces/FuseWelcome?fndThemeName=Aquamarine");
 }
-      change_URL()
+ change_URL()
