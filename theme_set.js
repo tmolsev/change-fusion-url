@@ -12,7 +12,7 @@ function change_URL() {
     console.log("The string contains 'fndThemeName=Light Blue'");
   } else {
     console.log("The string does not contain 'fndThemeName=Light Blue'");
-    window.location.replace("https://fa-eqjw-dev10-saasfademo1.ds-fa.oraclepdemos.com/crmUI/faces/FuseWelcome?fndThemeName=Light%20Blue");
+    window.location.replace("https://fa-erzr-dev19-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FuseWelcome?fndThemeName=Redwood");
   }
 
   // Set the flag indicating the script has run
