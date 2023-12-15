@@ -1,9 +1,9 @@
 function change_URL() {
   // Check if the script has already run this session
-  sessionStorage.removeItem("scriptHasRun");
-  
+    
   if (sessionStorage.getItem("scriptHasRun")) {
     console.log("The script has already run this session. Skipping...");
+    sessionStorage.removeItem("scriptHasRun");
     return;
   }
 
