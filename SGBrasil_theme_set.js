@@ -1,12 +1,12 @@
 function change_URL() {
   // Check if the script has already run this session
- /*   
-  if (sessionStorage.getItem("scriptHasRun")) {
-    console.log("The script has already run this session. Skipping...");
-    sessionStorage.removeItem("scriptHasRun");
-    return;
-  }
-*/
+    
+  //if (sessionStorage.getItem("scriptHasRun")) {
+  //  console.log("The script has already run this session. Skipping...");
+  //  sessionStorage.removeItem("scriptHasRun");
+  //  return;
+  //}
+
   const fullURL = window.location.href;
   console.log(fullURL);
 
