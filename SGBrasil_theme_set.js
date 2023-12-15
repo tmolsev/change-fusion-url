@@ -8,11 +8,11 @@ function change_URL() {
   const fullURL = window.location.href;
   console.log(fullURL);
 
-  if (fullURL.includes("fndThemeName=Light Blue")) {
-    console.log("The string contains 'fndThemeName=Light Blue'");
+  if (fullURL.includes("fndThemeName=SGBrasil")) {
+    console.log("The string contains 'fndThemeName=SGBrasil'");
   } else {
-    console.log("The string does not contain 'fndThemeName=Light Blue'");
-    window.location.replace("https://fa-erzr-dev19-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FuseWelcome?fndThemeName=Redwood");
+    console.log("The string does not contain 'fndThemeName=SGBrasil'");
+    window.location.replace("https://fa-erzr-dev19-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FuseWelcome?fndThemeName=SGBrasil");
   }
 
   // Set the flag indicating the script has run
