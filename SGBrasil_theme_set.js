@@ -14,7 +14,7 @@ function change_URL() {
     console.log("The string contains 'fndThemeName=SGBrasil'");
   } else {
     console.log("The string does not contain 'fndThemeName=SGBrasil'");
-    window.location.replace("https://fa-erzr-dev19-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FuseWelcome?fndThemeName=SGBrasil");
+    window.location.replace("https://fa-esdr-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FuseWelcome?fndThemeName=SGBrasil");
   }
 
   // Set the flag indicating the script has run
