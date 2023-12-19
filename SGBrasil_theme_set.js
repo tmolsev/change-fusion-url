@@ -1,14 +1,14 @@
 function change_URL() {
   // Check if the script has already run this session
     
-  //if (sessionStorage.getItem("scriptHasRun")) {
-  //  console.log("The script has already run this session. Skipping...");
-  //  sessionStorage.removeItem("scriptHasRun");
-  //  return;
-  //}
+  if (sessionStorage.getItem("scriptHasRun_BR")) {
+    console.log("The script has already run this session. Skipping...");
+    //sessionStorage.removeItem("scriptHasRun_BR");
+    return;
+  }
 
   const fullURL = window.location.href;
-  console.log(fullURL);
+  console.log("Location URL" + fullURL);
 
   if (fullURL.includes("fndThemeName=SGBrasil")) {
     console.log("The string contains 'fndThemeName=SGBrasil'");
@@ -21,7 +21,7 @@ function change_URL() {
   }
 
   // Set the flag indicating the script has run
-  sessionStorage.setItem("scriptHasRun", "true");
+  sessionStorage.setItem("scriptHasRun_BR", "true");
 }
 
 change_URL();
